@@ -1,0 +1,18 @@
+Relies on the pandas package
+
+
+Usage:
+
+    python nbayes.py training_set test_set output_file
+
+  OR
+
+compile using Cython:
+
+$ cython --embed nbayes.py
+$ gcc -Ofast -I /usr/include/python2.7 nbayes.c -o nbayesexe -lpython2.7 -lm -lutil -ldl
+
+then run:
+
+$ ./nbayesexe training_set test_set output_file
+
