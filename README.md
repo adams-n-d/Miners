@@ -11,4 +11,5 @@ Apriori - for mining frequent itemsets
 
 CHAMELEON - efficient clustering algorithm for large datasets
 
-
+Very Fast Decision Tree (VFDT) for data streams using the Hoeffding Bound
+
