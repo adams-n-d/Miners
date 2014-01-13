@@ -1,0 +1,22 @@
+VFDT - Very Fast Decision Tree using the Hoeffding bound
+
+Run:
+
+$ python vt.py reviews.txt
+
+where reviews.txt is of the format delivered by the
+SNAP Amazon Review dataset
+See:
+https://snap.stanford.edu/data/web-Amazon.html
+
+heurisitic.py calculates the information gain statistics, typically used for the ID4 algorithm but applied in this case to the VFDT
+
+txtCls.py creates the classifiers that are used to provide features to the decision tree classifier
+
+parser.py reads and parses the text data file into a dictionary of features. When dealing with a differently structured file or database, one may adapt their own parsing functions.
+
+vt.py contains the main decision tree building loop and also the testing loop for evaluation.
+
+
+
+
